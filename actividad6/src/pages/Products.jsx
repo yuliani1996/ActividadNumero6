@@ -14,7 +14,7 @@ const Products = () => {
 
         return (
         <div>
-            <h2 style={{ textAlign: 'center' }}>Products</h2>
+            <h2 style={{ textAlign: 'center' }}>Productos</h2>
             <div className="products-container">
                 {products.map(product => (
             <div key={product.id} className="product-card">
